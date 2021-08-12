@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>flights</h2> <hr />
+	<form action = "store" method = "POST">
+		Enter source <input type = "text" name = "t3"> <br />
+		Enter destination <input type = "text" name = "t4"> <br />
+		Enter number of passengers <input type = "number" name = "t5"> <br />
+		<input type = "button" value = "search" onclick="listofflights()">
+	</form>
+	<label id="message1"></label> <label id="message2"></label> <label id="message3"></label> <label id="message4"></label><label id="message5"></label>
+	<label id="message6"></label> <label id="message7"></label> <label id="message8"></label> <label id="message9"></label><label id="message10"></label>
+	<label id="message11"></label> <label id="message12"></label> <label id="message13"></label> <label id="message14"></label><label id="message15"></label>
+	<label id="message16"></label> <label id="message17"></label> <label id="message18"></label> <label id="message19"></label><label id="message20"></label>
+	
+	<hr />
+	<script>
+
+ function listofflights(){
+	 document.getElementById("message1").innerHTML="&nbsp;&nbsp;flight&nbsp;&nbsp; ";
+	 document.getElementById("message2").innerHTML="&nbsp;&nbsp; source&nbsp;&nbsp;";
+	 document.getElementById("message3").innerHTML="&nbsp;&nbsp;destination&nbsp;&nbsp; ";
+	 document.getElementById("message4").innerHTML=" &nbsp;&nbsp;airline&nbsp;&nbsp;";
+	 document.getElementById("message5").innerHTML=" &nbsp;&nbsp;ticket price ";
+
+ }
+ </script>
+
+</body>
+</html>
